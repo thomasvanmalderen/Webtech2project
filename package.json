@@ -1,0 +1,26 @@
+{
+  "name": "webtech2project",
+  "version": "1.0.0",
+  "description": "Live discussion site for webtech 2 course.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "mongoose": "^4.4.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasvanmalderen/Webtech2project.git"
+  },
+  "author": "Thomas-Antoine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasvanmalderen/Webtech2project/issues"
+  },
+  "homepage": "https://github.com/thomasvanmalderen/Webtech2project#readme"
+}
