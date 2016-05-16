@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    title= AskIMD
+    link(href='/css/normalize.css', rel='stylesheet')
+    script
+        include ../script/jquery-2.2.3.min.js
+        include ../script/discussion.js
+    
+  body
+    
+    a#link(href='/create') Go back
+  
+    h1=_id
+    input(type='hidden' value=_id)#id
+    
+    div
+        input#question(type="text")
+        input#btnQuestion(type="submit" value="Stel je vraag")

@@ -2,9 +2,10 @@
   "name": "webtech2project",
   "version": "1.0.0",
   "description": "Live discussion site for webtech 2 course.",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.15.0",
+    "debug": "^2.2.0",
     "express": "^4.13.4",
     "jade": "^1.11.0",
     "mongoose": "^4.4.12"
